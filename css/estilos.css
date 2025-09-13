@@ -1,0 +1,312 @@
+
+/** FUENTES **/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/** Reset CSS **/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/** Automatizaciones **/
+:root{
+    --color-primario: #80808066
+
+}
+
+
+/*!----- Primera sección: INICIO COMPONENTES PRINCIPALES ------*/
+
+h1{
+    color: gray;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+
+/*?-------- Sección 1.2: BARRA DE INICIO
+
+nav ul {
+    list-style: none;
+}
+
+.barra{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #80808066;
+    padding: 25px 50px;
+    font-weight:medium;
+    color: #80808066;
+    z-index: 100;
+}
+
+.menu{
+    display: contents;
+    justify-content: space-between; 
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.botonbusqueda{
+    background-color: #80808066;
+    border-color: #80808066;
+}
+
+
+------*/
+.imagen-principal{
+    text-align: center;
+    background-color: azure;
+    width: auto;
+    height: 500px;
+    background-image:url(../img/frailejones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/**----- Animaciones e interacciones  -----*/
+
+.menu a{
+    text-decoration: none;
+    transition: transform 0.3s linear;
+    color:  #0F0B0B;
+}
+
+.menu li:hover {
+    transform: scale(1.1);
+
+}
+
+.logo{
+    display: inline-block;
+    justify-content:space-around;
+    width: 50px;
+    animation: crecer  10s infinite linear;
+
+}
+
+@keyframes crecer {
+    0%, 100% { transform: scale(1);}
+    50% { transform: scale(2.1);}
+
+}
+
+.departamentoesp:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/*! ----- Segunda sección: DEPARTAMENTOS ------ */
+
+
+.departamentos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: 30px;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.departamentos img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.departamentoesp{
+    border-style: solid;
+    border-color: #0F0B0B;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+
+/*! ------- Tercera sección: PIE DE PAGINA ----- */
+
+
+.piedepagina {
+    background-color: #80808066;
+    margin-top: auto;
+    padding: 4px;
+}
+
+
+/*!----- Sección: SOBRE NOSOTROS ----*/
+
+.seccionunica{
+    background-image: linear-gradient(rgba(255,255,255,0.5)), url(../img/colombiamagiga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sobre-nosotros{
+    display: flex;
+    margin-bottom: 5px;
+    text-align: justify;
+    width: 800px;
+    margin: 50px auto;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+/*?---- Sección: DESCUBRE ----*/
+
+.infodescubre{
+    text-align: center;
+    margin: 50px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.todalasecciondescubre {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.todalasecciondescubre img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/**---------- Sección CÓRDOBA -------**/
+
+.titulodeseccioncordoba {
+    text-align: center;
+    border-style: solid;
+    border-color: #0F0B0B;
+    background-color: #80808066;
+    margin: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.herpetologiamural{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+    background-image: url(../img/mapaparabackgroundcordobajpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.herpetologiamural img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.herpetologiamural h4 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+/**----- Sección para estilizar mensajes temporales -----*/
+
+.imagentemporal{
+    display: block;
+    margin: 200px auto 0 auto;
+    block-size: 100px;
+}
+
+.mensajetemporal {
+    text-align: center;
+    font-style: oblique;
+}
+
+
+/*!----- SECCIÓN PARA RESPONSIVE ---*/
+
+@media screen and (max-width: 933px){
+    .barra{
+    padding: 10px 5px;
+    background-color: yellow
+}
+.departamentos {
+    flex-wrap: wrap;
+}
+    
+}
+
+@media screen and (max-width: 566px){
+    .barra{
+    padding: 10px 5px;
+    background-color: yellow
+}
+.departamentos {
+    flex-wrap: wrap;
+}
+    
+}
+
+@media screen and (max-width: 517px){
+    .barra{
+    padding: 10px 5px;
+    background-color: yellow
+}
+.departamentos {
+    flex-wrap: wrap;
+}
+    
+}
