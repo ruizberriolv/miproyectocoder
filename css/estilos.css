@@ -46,7 +46,7 @@ h1{
 }
 
 
-/*?-------- Sección 1.2: BARRA DE INICIO
+/*?-------- Sección 1.2: BARRA DE INICIO ------*/
 
 nav ul {
     list-style: none;
@@ -70,7 +70,7 @@ nav ul {
     justify-content: space-between; 
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 
 }
@@ -81,7 +81,6 @@ nav ul {
 }
 
 
-------*/
 .imagen-principal{
     text-align: center;
     background-color: azure;
@@ -189,7 +188,7 @@ nav ul {
     margin: 50px auto;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -201,7 +200,7 @@ nav ul {
     margin: 50px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -212,7 +211,7 @@ nav ul {
     margin: 10px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -232,7 +231,7 @@ nav ul {
     margin: 20px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -257,7 +256,7 @@ nav ul {
 .herpetologiamural h4 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
