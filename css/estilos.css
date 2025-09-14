@@ -55,8 +55,8 @@ nav ul {
 .barra{
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
     align-items:center;
     background-color: #80808066;
     padding: 25px 50px;
