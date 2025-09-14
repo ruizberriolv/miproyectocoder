@@ -2,6 +2,7 @@
 /** FUENTES **/
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kode+Mono:wght@700&family=Oswald:wght@200..700&family=Tangerine:wght@400;700&display=swap');
 
 /** Reset CSS **/
 
@@ -42,7 +43,10 @@ h1{
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
