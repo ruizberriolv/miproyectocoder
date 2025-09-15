@@ -45,7 +45,7 @@ h1{
     text-transform: uppercase;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -72,11 +72,10 @@ nav ul {
 .menu{
     display: contents;
     justify-content: space-between; 
-    font-family: "Oswald", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-
 }
 
 .botonbusqueda{
@@ -95,6 +94,10 @@ nav ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 
@@ -289,6 +292,12 @@ nav ul {
 .departamentos {
     flex-wrap: wrap;
 }
+
+.imagen-principal{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     
 }
 
@@ -300,6 +309,12 @@ nav ul {
 .departamentos {
     flex-wrap: wrap;
 }
+
+.imagen-principal{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     
 }
 
@@ -310,6 +325,12 @@ nav ul {
 }
 .departamentos {
     flex-wrap: wrap;
+}
+
+.imagen-principal{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
     
 }
