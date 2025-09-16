@@ -297,6 +297,11 @@ nav ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:local;
+}
+
+h1{
+    font-size: 25px;
 }
     
 }
@@ -314,6 +319,11 @@ nav ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:local;
+}
+
+h1{
+    font-size: 15px;
 }
     
 }
@@ -331,6 +341,11 @@ nav ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:local;
+}
+
+h1{
+    font-size: 15px;
 }
     
 }
